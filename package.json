@@ -42,4 +42,11 @@
     "webpack": "^5.95.0",
     "webpack-dev-server": "^5.1.0"
   }
+  {
+    "homepage": "https://VIDYA1980.github.io/quicksell",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+  }
 }
